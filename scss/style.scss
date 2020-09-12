@@ -1,5 +1,7 @@
 $color-background: pink;
 
+@import "patrials/toc";
+
 body {
     background: $color-background;
-}
+}   
