@@ -16,10 +16,12 @@
 
 /*RESPONSIVE TYPE*/
 //SMALL
-body {font-size: 87.5%; }
+body { font-size: 87.5%; }
 
-@media {min-width: $breakpoint-small;}
+@media (min-width: $breakpoint-small) {
     body { font-size: 100%;}
+}
 
-@media {min-width: $breakpoint-medium;}
+@media (min-width: $breakpoint-large) {
     body { font-size: 118.5%;}    
+}    
