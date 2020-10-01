@@ -1,0 +1,25 @@
+/*RESET BODY*/
+
+.body {
+    margin: 0;
+}
+
+/*CONTAINER*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/*MEDIA QUARIES*/
+
+
+/*RESPONSIVE TYPE*/
+//SMALL
+body {font-size: 87.5%; }
+
+@media {min-width: $breakpoint-small;}
+    body { font-size: 100%;}
+
+@media {min-width: $breakpoint-medium;}
+    body { font-size: 118.5%;}    
