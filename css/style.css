@@ -79,7 +79,7 @@ hr {
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  color: pink;
+  color: rgb(233, 182, 191);
 }
 
 .subheadline {
@@ -93,7 +93,7 @@ hr {
 /* BUTTONS*/
 .button {
   display: inline-block;
-  background-color: pink;
+  background-color: rgb(248, 206, 213);
   color: #fff;
   text-decoration: none;
   padding: 1em;
