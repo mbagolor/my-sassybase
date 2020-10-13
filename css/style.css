@@ -4,18 +4,26 @@
 }
 
 /* VARIABLES*/
-/* ---------------------- 
-CSS TABLE OF CONTENTS
-#GLOBAL RESETS
+/*
+
+TABLE OF CONTENT
+
+#GLOBLE RESET
 #BASE TYPOGRAPHY
 #BUTTONS
-#MEDIA
+#MEDIA 
     #RESPONSIVE IMAGES
 #LAYOUT
     #CONTAINER
-    #MEDIA QUERES
-    #CUSTOME SEMANTIC GRID SYSTEM
-------------------------- */
+    #MEDIA QUARIES
+    #SEMANTIC GRID SYSTEM 
+#STRUCTURE
+    #SITE HEADER
+    #SITE NAV
+    #MAIN
+        #SECTIONS
+    #SITE FOOTER    
+*/
 /* BASE COLORS */
 body {
   color: rgba(0, 0, 0, 0.8);
@@ -79,50 +87,50 @@ hr {
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  color: rgb(233, 182, 191);
+  color: pink;
 }
 
 .subheadline {
   font-size: 2.5em;
   font-weight: normal;
   margin: 0.25em 0;
-  color: rgba(0, 0, 0, 0.3);
+  color: light grey;
 }
 
 /*HELPERS*/
 /* BUTTONS*/
 .button {
   display: inline-block;
-  background-color: rgb(248, 206, 213);
+  background-color: pink;
   color: #fff;
   text-decoration: none;
   padding: 1em;
   border-radius: 5px;
 }
 .button:hover {
-  background-color: #a8727b;
+  background-color: rgba(168, 114, 123, 0.3);
 }
 
-/* RESPONSIVE IMAGES*/
+/* RESPONSICE IMAGES */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* BODY RESET*/
-body {
+/*RESET BODY*/
+.body {
   margin: 0;
 }
 
-/* CONTAINER */
+/*CONTAINER*/
 .container {
-  max-width: 1000px;
   margin: 0 auto;
+  max-width: 1000px;
   padding: 0 1em;
 }
 
-/*MEDIA QUERES*/
-/* RESPONSIVE-TYPE*/
+/*MEDIA QUARIES*/
+/*RESPONSIVE TYPE*/
 body {
   font-size: 87.5%;
 }
@@ -132,9 +140,9 @@ body {
     font-size: 100%;
   }
 }
-@media (min-width: 1050px) {
+@media (min-width: 1250px) {
   body {
-    font-size: 100.5%;
+    font-size: 110.5%;
   }
 }
 /* SEMANTIC GRID*/
@@ -202,73 +210,28 @@ body {
 }
 
 /* SITE STRUCTURE */
-.site-header {
-  background: pink;
+.site.header {
+  background: rgba(168, 114, 123, 0.3);
   padding: 1em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-.site-header a {
+.site.header a {
   color: white;
   text-decoration: none;
 }
-.site-header h1 {
+.site.header h1 {
   font-size: 1.5em;
-  margin: 0;
 }
 
-/*SITE FOOTER*/
-.site-footer {
-  background:  rgba(255,202,202);
-  display: flex;
-  padding: 1em;
-  justify-content: center;
-}
-.site-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-/*SITE NAV*/
+/*SITE-NAV*/
 .site-nav ul {
   margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
 }
-.site-nav a {
-  display: inline-block;
-  padding: 1em;
-}
 
-section {
-  padding: 4em 0;
-}
-
-/*HERO*/
-.site-hero {
-  background: pink;
-  text-align: center;
-  padding: 6em 0;
-}
-.site-hero h1 {
-  margin-bottom: 0.25em;
-}
-.site-hero p {
-  margin: 1em auto;
-}
-
-/*SECTION HEADING*/
-.section-heading {
-  font-size: 1em;
-  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 5px solid pink;
-  display: table;
-  padding: 0 0 0.5em 0;
-  margin: 1em auto 3em auto;
+/* HERO SECTION */
+.hero {
+  background-color: rgba(168, 114, 123, 0.3);
 }

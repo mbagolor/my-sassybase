@@ -5,8 +5,9 @@
 $color-text-body: rgba(0,0,0,.8);
 $color-text-headings: rgba(0,0,0,.4);
 $color-accent: pink;
-$color-accent-dark: rgb(168, 114, 123);
-$color-accent-light: rgba(255,202,202);  
+$color-accent-dark: rgba(168,114,123,.3);
+$color-accent-light: rgba(255, 202, 202, 0.3);  
+$color-lightgrey: light grey; 
 
 $font-family-sans: 'Source Sans Pro', Arial, Helvetica, sans-serif;;
 $font-family-serif: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
@@ -19,8 +20,8 @@ $breakpoint-large: 1250px;
 // IMPORTS
 @import "partials/toc";
 @import "partials/typography";
-@import "partials/buttons";
+@import "partials/button";
 @import "partials/media"; 
-@import "partials/layouts"; 
+@import "partials/layout"; 
 @import "partials/grid"; 
 @import "partials/structure";  
