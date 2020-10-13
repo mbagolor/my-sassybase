@@ -1,0 +1,31 @@
+/* SITE STRUCTURE */
+
+.site.header {
+    background:$color-accent-dark;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+}
+
+/*SITE-NAV*/
+.site-nav {
+    ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+    }
+}
+/* HERO SECTION */ 
+.hero {
+    background-color: $color-accent-dark;
+}
