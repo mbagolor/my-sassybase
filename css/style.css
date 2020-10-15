@@ -167,6 +167,9 @@ body {
 .row.stacked {
   flex-direction: column;
 }
+.row.align-top {
+  align-items: flex-start;
+}
 @media (min-width: 768px) {
   .row .one-half {
     width: 46%;
@@ -210,18 +213,32 @@ body {
 }
 
 /* SITE STRUCTURE */
-.site.header {
-  background: rgba(168, 114, 123, 0.3);
-  padding: 1em;
+.site-header {
+  background: pink;
+  padding: 0.5em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.site.header a {
+.site-header a {
   color: white;
   text-decoration: none;
 }
-.site.header h1 {
+.site-header h1 {
   font-size: 1.5em;
+  margin: 0;
+}
+
+/*SITE FOOTER*/
+.site-footer {
+  background: pink;
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+}
+.site-footer a {
+  color: white;
+  text-decoration: none;
 }
 
 /*SITE-NAV*/
@@ -229,9 +246,40 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
+  padding: 0;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 1em;
+}
+
+section {
+  padding: 4em 0;
 }
 
 /* HERO SECTION */
-.hero {
-  background-color: rgba(168, 114, 123, 0.3);
+.site-hero {
+  background: rgba(255, 202, 202, 0.3);
+  text-align: center;
+  padding: 6em 0;
+}
+.site-hero h1 {
+  margin-bottom: 0.25em;
+}
+.site-hero p {
+  margin: 1em auto;
+}
+
+/*SECTION HEADING*/
+.section-heading {
+  font-size: 1em;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  border-bottom: 5px solid rgba(255, 202, 202, 0.3);
+  display: table;
+  padding: 0 0 0.5em 0;
+  margin: 1em auto 3em auto;
 }

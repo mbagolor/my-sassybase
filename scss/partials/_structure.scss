@@ -1,21 +1,38 @@
 /* SITE STRUCTURE */
 
-.site.header {
-    background:$color-accent-dark;
-    padding: 1em;
+.site-header {
+    background: pink;
+    padding: .5em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     a{
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
     }
 
     h1 {
         font-size: 1.5em;
+        margin: 0;
     }
 
 } 
+
+/*SITE FOOTER*/
+
+.site-footer {
+    background: pink;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
 
 /*SITE-NAV*/
 .site-nav {
@@ -23,9 +40,43 @@
         margin: 0;
         list-style: none;
         display: flex;
+        padding: 0;
+    }
+    a {
+        display: inline-block;
+        padding: 1em;
     }
 }
+section {
+    padding: 4em 0;
+}
 /* HERO SECTION */ 
-.hero {
-    background-color: $color-accent-dark;
+
+.site-hero {
+    background: $color-accent-light;
+    text-align: center;
+    padding: 6em 0;
+
+    h1 {
+        margin-bottom: .25em;
+    }
+
+    p {
+        margin: 1em auto;
+    }
+}
+
+/*SECTION HEADING*/
+
+.section-heading {
+    font-size: 1em;
+    font-family: $font-family-sans;
+    font-weight: normal;
+    color: $color-text-body;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    border-bottom: 5px solid $color-accent-light;
+    display: table;
+    padding: 0 0 .5em 0;
+    margin: 1em auto 3em auto;
 }
