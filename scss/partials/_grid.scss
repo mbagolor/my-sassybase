@@ -53,9 +53,9 @@ $gridgap: 2%;
         margin-bottom: 0;
         // background-color: rgba(255,0,0,.1);
 
-        > *{
+        > * {
             background-color: rgba(0,0,0,.1);
-            padding: ($gridgap / 2);
+            padding: 1%;
             // box-shadow: inset 0 0 0 1px green;
         }
     }

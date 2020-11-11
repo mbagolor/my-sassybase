@@ -32,7 +32,7 @@ h3 {
 
 /*LIMIT # CHARACTER PER LINE */
 
-p{ max-width: 30em;}
+p{ max-width: 40em;}
 
 /*HORIZONTAL LINE*/
 
@@ -56,6 +56,7 @@ hr{
 .subheadline {
     font-size: 2.5em;
     font-weight: normal;
+    line-height: 1.1;
     margin: .25em 0;
     color: $color-lightgrey;
 }
